@@ -10,11 +10,12 @@
 #import "EMCCountryDelegate.h"
 #import "EMCCountry.h"
 
-@interface EMCCountryPickerController : UIViewController<UITableViewDataSource, UITableViewDelegate, UISearchDisplayDelegate, UISearchBarDelegate>
+@interface EMCCountryPickerController : UIViewController<UITableViewDataSource, UITableViewDelegate, UISearchResultsUpdating, UISearchBarDelegate>
 
 - (void)chooseCountry:(EMCCountry *)chosenCountry;
 
 @property (weak) IBOutlet id<EMCCountryDelegate> countryDelegate;
+@property (copy) void (^onCountrySelected)(EMCCountry *country);
 @property (copy) NSSet *availableCountryCodes;
 @property NSLocale *countryNameDisplayLocale;
 @property BOOL showFlags;
