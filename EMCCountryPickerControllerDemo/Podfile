@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'EMCCountryPickerControllerDemo' do
+	pod 'EMCCountryPickerController', '~> 1.0'
+end
