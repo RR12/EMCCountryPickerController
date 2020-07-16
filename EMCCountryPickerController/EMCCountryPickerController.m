@@ -362,7 +362,7 @@ static const CGFloat kEMCCountryCellControllerMinCellHeight = 25;
             [NSException raise:@"Unknown country code" format:@"Unknown country code %@", code];
         }
     }
-    
+
     return countries;
 }
 
