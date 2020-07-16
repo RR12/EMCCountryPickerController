@@ -7,233 +7,251 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049CF340A7914DDBC897C26B22574725 /* EMCCountryPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B3406909904A0F8B81162CD4A6042DC /* EMCCountryPickerController.bundle */; };
-		1218B5C23FBCE04C22349A9143FE6ABD /* EMCCountryPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC12B2FADC9CE94325798CA86668783 /* EMCCountryPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44CE262EA19CB9E99520E9C2E806556B /* EMCCountryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B0BDDE968F47389C303AF85CB5F0C4 /* EMCCountryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AEBF76F5605B6F4CDFA7E457050B9EF /* EMCCountryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5819DB4FE8278C7980CA1706469D90 /* EMCCountryDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AACA005A8E47F5960B42669C7889D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8BB4BC7B0F9FA441F0E0540E2A5D1CDF /* UIImage+UIImage_EMCImageResize.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F832ADEC072B8283C5B2BC1E969D8 /* UIImage+UIImage_EMCImageResize.m */; };
-		A4527CEA954B61680138C8149799EFBD /* EMCCountryPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C97C7F9221A66A4CB31CFB2ABA0775 /* EMCCountryPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5088016BCF837BD9836372105296839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BDCAE5F5117E847264EAF27341364047 /* EMCCountry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED0B289F8BFF35493C77053E5227AFA /* EMCCountry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF20923D5A37ACF335DAD390BBC6F9AE /* EMCCountryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9253A72A055682082F1FCCF39091B93 /* EMCCountryManager.m */; };
-		C0709A36948753C9836D3417269AE366 /* EMCCountryPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D55CA2542938A30A6E0E6F917B6293 /* EMCCountryPickerController.m */; };
-		C418F6108F329B62FF863502F8A35131 /* Pods-EMCCountryPickerControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 058B59F4ED20BF69919F1C5C86DE82C1 /* Pods-EMCCountryPickerControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD5A2343C3EBE46A1BE6D8E646D59EA5 /* Pods-EMCCountryPickerControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39BE0EFA125ED0F0F800B25DCEF6F7 /* Pods-EMCCountryPickerControllerDemo-dummy.m */; };
-		CD9947183BF5D71F0A933D69FA365765 /* EMCCountryPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DC1956354493BBDFC0A38A79D98F63 /* EMCCountryPickerController-dummy.m */; };
-		E64CA55024D9AE49294C44C55F3CEF36 /* UIImage+UIImage_EMCImageResize.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E17CEA3DF7DCF34FEBDD1FE1BD1D95D /* UIImage+UIImage_EMCImageResize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED89172B658C1D00C42AA74574A92C43 /* EMCCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 674C274BEA95FE2EF5666E113FE154EF /* EMCCountry.m */; };
+		18704226A1477EA6CEB39D72AE4EAFB1 /* EMCCountryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FD9BC47F0B03B51D5985D1C10ADBCD /* EMCCountryDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191C31841D67477883F5506B2CA31280 /* EMCCountryPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDA72492CA83416FAA29F269B3C6FDF /* EMCCountryPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8D076CC934B040CCB64D10CD91752E /* EMCCountryPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1A686043DDF2E3620D57669E10F07 /* EMCCountryPickerController.m */; };
+		611FF006064FD9B798A498338F09F687 /* EMCCountryPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF83E5D4DEF8A744A4EF6EF6BB420040 /* EMCCountryPickerController-dummy.m */; };
+		715EB533CB18397436BC5553366B197F /* UIImage+UIImage_EMCImageResize.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DF3DC25CCD81AD72C381FBFB23A237 /* UIImage+UIImage_EMCImageResize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A169E3FA0A9ED18B1754CE77FC25439 /* UIImage+UIImage_EMCImageResize.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6D26307E6960BED3BBB9F072150B2C /* UIImage+UIImage_EMCImageResize.m */; };
+		9521D2C90DC6F1C98A0B4BC2359EB2B4 /* EMCCountryPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97E582C8EC2DA1AB17E58772ADB65619 /* EMCCountryPickerController.bundle */; };
+		9B169BA06F625AEBFBD872B5E9120BC5 /* EMCCountryPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FF2B39CD7BAF374C8D2FA66C788753 /* EMCCountryPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7DCB859B5B02640BFB7E6EA11A125E8 /* EMCCountry.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F7AF9607DC7B0E5FCC009CFAE36A8D /* EMCCountry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAE7BF62DB38911310E32495F45E88BF /* Pods-EMCCountryPickerControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EC8BDABA460FAE5D7AC2040AA2C8E7 /* Pods-EMCCountryPickerControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD93AAD0B2A83AA5E95453304F570463 /* EMCCountryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0A6E5551EADA12E80A4F497A8DB6E9 /* EMCCountryManager.m */; };
+		C55051EF544442D145A36D7E6AFBC809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C8D9926EDB84D1BF9A631ED4AB0DBEFA /* EMCCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CB09D7911161AE89265521815D5A8 /* EMCCountry.m */; };
+		DD44675DF5019C4E9A525F403617CF5B /* EMCCountryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDE247A6FC9C9F680B4CB5910205242 /* EMCCountryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDAA6003A2BD9C44FA0CB6FAD98675AF /* Pods-EMCCountryPickerControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B521EB668D4C33D13D490A01A17C2B35 /* Pods-EMCCountryPickerControllerDemo-dummy.m */; };
+		DFEB333A7D596C48FEF4A1C408E6FFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2A0A122D74332F6C5DFED2F70EF1A075 /* PBXContainerItemProxy */ = {
+		9E323B04A46C8A12E84A2734D47B8B26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3431A2F3CD546148AA09AA15CCEFF9F7;
+			remoteGlobalIDString = E5E9967CB56649FB5818463BE834123B;
 			remoteInfo = EMCCountryPickerController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0206F0AE3766ED2860A68C45B8160B12 /* Pods-EMCCountryPickerControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMCCountryPickerControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		023A43E242176DF75F6169014AA7C5F7 /* Pods-EMCCountryPickerControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMCCountryPickerControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		058B59F4ED20BF69919F1C5C86DE82C1 /* Pods-EMCCountryPickerControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMCCountryPickerControllerDemo-umbrella.h"; sourceTree = "<group>"; };
-		0B5819DB4FE8278C7980CA1706469D90 /* EMCCountryDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountryDelegate.h; path = EMCCountryPickerController/EMCCountryDelegate.h; sourceTree = "<group>"; };
-		13B59F3B06FA0DB2B8E4CBE7F0DA5686 /* Pods-EMCCountryPickerControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMCCountryPickerControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22656CE37D20BBE362DE9C433D3AFA93 /* EMCCountryPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMCCountryPickerController-prefix.pch"; sourceTree = "<group>"; };
-		33D0C99ED027E5DB5972C6D89A517931 /* EMCCountryPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMCCountryPickerController.xcconfig; sourceTree = "<group>"; };
-		3B71F1706EBA34743EE361527600DCDD /* Pods-EMCCountryPickerControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMCCountryPickerControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4F6E01864CC718D740F43E99D24FF13F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59B0BDDE968F47389C303AF85CB5F0C4 /* EMCCountryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountryManager.h; path = EMCCountryPickerController/EMCCountryManager.h; sourceTree = "<group>"; };
-		5EC12B2FADC9CE94325798CA86668783 /* EMCCountryPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMCCountryPickerController-umbrella.h"; sourceTree = "<group>"; };
-		5ED0B289F8BFF35493C77053E5227AFA /* EMCCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountry.h; path = EMCCountryPickerController/EMCCountry.h; sourceTree = "<group>"; };
-		674C274BEA95FE2EF5666E113FE154EF /* EMCCountry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMCCountry.m; path = EMCCountryPickerController/EMCCountry.m; sourceTree = "<group>"; };
-		6B3406909904A0F8B81162CD4A6042DC /* EMCCountryPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EMCCountryPickerController.bundle; path = EMCCountryPickerController/EMCCountryPickerController.bundle; sourceTree = "<group>"; };
-		71B4FD7E8EE6BBEF610E1AB780F37E32 /* Pods-EMCCountryPickerControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMCCountryPickerControllerDemo-resources.sh"; sourceTree = "<group>"; };
-		79F09F4B75B1842CCBB893358DA9CF64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81DC1956354493BBDFC0A38A79D98F63 /* EMCCountryPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMCCountryPickerController-dummy.m"; sourceTree = "<group>"; };
-		8C39BE0EFA125ED0F0F800B25DCEF6F7 /* Pods-EMCCountryPickerControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMCCountryPickerControllerDemo-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E17CEA3DF7DCF34FEBDD1FE1BD1D95D /* UIImage+UIImage_EMCImageResize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+UIImage_EMCImageResize.h"; path = "EMCCountryPickerController/UIImage+UIImage_EMCImageResize.h"; sourceTree = "<group>"; };
-		9EA6688F4015EADBA31CA5C0C85C4751 /* Pods-EMCCountryPickerControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EMCCountryPickerControllerDemo.modulemap"; sourceTree = "<group>"; };
-		A67456F48016C5A6F4E62B6C3EB3379D /* Pods-EMCCountryPickerControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMCCountryPickerControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		B601133DA2C1B227410301DE78FD6C9F /* EMCCountryPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EMCCountryPickerController.modulemap; sourceTree = "<group>"; };
-		BE2F832ADEC072B8283C5B2BC1E969D8 /* UIImage+UIImage_EMCImageResize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+UIImage_EMCImageResize.m"; path = "EMCCountryPickerController/UIImage+UIImage_EMCImageResize.m"; sourceTree = "<group>"; };
-		C74913D67B86EF4B438D23DE145E3C7E /* Pods_EMCCountryPickerControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EMCCountryPickerControllerDemo.framework; path = "Pods-EMCCountryPickerControllerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F1D55CA2542938A30A6E0E6F917B6293 /* EMCCountryPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMCCountryPickerController.m; path = EMCCountryPickerController/EMCCountryPickerController.m; sourceTree = "<group>"; };
-		F5C97C7F9221A66A4CB31CFB2ABA0775 /* EMCCountryPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountryPickerController.h; path = EMCCountryPickerController/EMCCountryPickerController.h; sourceTree = "<group>"; };
-		F8335D72D747780236881B7225591CDB /* EMCCountryPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EMCCountryPickerController.framework; path = EMCCountryPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9253A72A055682082F1FCCF39091B93 /* EMCCountryManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMCCountryManager.m; path = EMCCountryPickerController/EMCCountryManager.m; sourceTree = "<group>"; };
+		0BDE247A6FC9C9F680B4CB5910205242 /* EMCCountryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountryManager.h; path = EMCCountryPickerController/EMCCountryManager.h; sourceTree = "<group>"; };
+		1AC1A686043DDF2E3620D57669E10F07 /* EMCCountryPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMCCountryPickerController.m; path = EMCCountryPickerController/EMCCountryPickerController.m; sourceTree = "<group>"; };
+		22EC8BDABA460FAE5D7AC2040AA2C8E7 /* Pods-EMCCountryPickerControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMCCountryPickerControllerDemo-umbrella.h"; sourceTree = "<group>"; };
+		24E0A15DBEC7FCEE8081C4D4347EC40A /* Pods-EMCCountryPickerControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMCCountryPickerControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		26A0C456E01910F9E6F5FFE45BFF772B /* EMCCountryPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMCCountryPickerController-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B0A6E5551EADA12E80A4F497A8DB6E9 /* EMCCountryManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMCCountryManager.m; path = EMCCountryPickerController/EMCCountryManager.m; sourceTree = "<group>"; };
+		3C6C244DAC0486C70A74EAFDAEBCD241 /* Pods-EMCCountryPickerControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMCCountryPickerControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		40DF3DC25CCD81AD72C381FBFB23A237 /* UIImage+UIImage_EMCImageResize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+UIImage_EMCImageResize.h"; path = "EMCCountryPickerController/UIImage+UIImage_EMCImageResize.h"; sourceTree = "<group>"; };
+		47F7AF9607DC7B0E5FCC009CFAE36A8D /* EMCCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountry.h; path = EMCCountryPickerController/EMCCountry.h; sourceTree = "<group>"; };
+		55CCF66475F47134333EA3E183F4568B /* EMCCountryPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMCCountryPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B35217AB5CC7184BD8634E7CDD698AF /* EMCCountryPickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMCCountryPickerController.debug.xcconfig; sourceTree = "<group>"; };
+		7691D58DEB449B3D228F9EDDB93A2DC1 /* Pods-EMCCountryPickerControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EMCCountryPickerControllerDemo.modulemap"; sourceTree = "<group>"; };
+		7C35A1B7ECCF4C2A6A2E2A6F768AE690 /* EMCCountryPickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMCCountryPickerController.release.xcconfig; sourceTree = "<group>"; };
+		7E1B3C04DBC67B1169B17ABD26A91CC1 /* Pods-EMCCountryPickerControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMCCountryPickerControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A21B2DF06350DB871DD533451CAE7DD /* Pods-EMCCountryPickerControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMCCountryPickerControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		97E582C8EC2DA1AB17E58772ADB65619 /* EMCCountryPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EMCCountryPickerController.bundle; path = EMCCountryPickerController/EMCCountryPickerController.bundle; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18CB09D7911161AE89265521815D5A8 /* EMCCountry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMCCountry.m; path = EMCCountryPickerController/EMCCountry.m; sourceTree = "<group>"; };
+		A2FD9BC47F0B03B51D5985D1C10ADBCD /* EMCCountryDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountryDelegate.h; path = EMCCountryPickerController/EMCCountryDelegate.h; sourceTree = "<group>"; };
+		A9FF2B39CD7BAF374C8D2FA66C788753 /* EMCCountryPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCCountryPickerController.h; path = EMCCountryPickerController/EMCCountryPickerController.h; sourceTree = "<group>"; };
+		B521EB668D4C33D13D490A01A17C2B35 /* Pods-EMCCountryPickerControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMCCountryPickerControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		BACFF2F0F6F585E89E7E75CC9F8A93CD /* Pods_EMCCountryPickerControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMCCountryPickerControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6D26307E6960BED3BBB9F072150B2C /* UIImage+UIImage_EMCImageResize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+UIImage_EMCImageResize.m"; path = "EMCCountryPickerController/UIImage+UIImage_EMCImageResize.m"; sourceTree = "<group>"; };
+		C0A770EE3383ADAFCD738CB3222B03F6 /* EMCCountryPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EMCCountryPickerController-Info.plist"; sourceTree = "<group>"; };
+		C533521FF5E0F9256614B2928AD58C37 /* Pods-EMCCountryPickerControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMCCountryPickerControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C72CFE42F0BA446429C118194FB29F84 /* EMCCountryPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMCCountryPickerController.modulemap; sourceTree = "<group>"; };
+		CCDA72492CA83416FAA29F269B3C6FDF /* EMCCountryPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMCCountryPickerController-umbrella.h"; sourceTree = "<group>"; };
+		CF83E5D4DEF8A744A4EF6EF6BB420040 /* EMCCountryPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMCCountryPickerController-dummy.m"; sourceTree = "<group>"; };
+		E5328A4DEE35AC320C6E288F8928C6B2 /* Pods-EMCCountryPickerControllerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMCCountryPickerControllerDemo-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		295966DB4A5ACAC9CB7273C5D6B4DE69 /* Frameworks */ = {
+		2379DD76A9EE9CC21CE5283B11406F4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5088016BCF837BD9836372105296839 /* Foundation.framework in Frameworks */,
+				DFEB333A7D596C48FEF4A1C408E6FFCB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2D33401CE755D9FFB1CBB81EFBEE8BF /* Frameworks */ = {
+		59C47B84EA9718430E5F31BBCFE93A66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AACA005A8E47F5960B42669C7889D28 /* Foundation.framework in Frameworks */,
+				C55051EF544442D145A36D7E6AFBC809 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0183A4CAC5D8B7C6F34019AA2C5429A6 /* Pods */ = {
+		0BD4BCC151164E9F3AD0132D926A0131 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				902BD3DF72575C7A1DBD5547CF7CB7A3 /* EMCCountryPickerController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		1F002A44A1049DF068C4A0A045B13D2D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				86C50A7813E223A5CACB164776A70EB2 /* Pods-EMCCountryPickerControllerDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7B8336BDB1D035A7C8A9091BABAC957E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F8335D72D747780236881B7225591CDB /* EMCCountryPickerController.framework */,
-				C74913D67B86EF4B438D23DE145E3C7E /* Pods_EMCCountryPickerControllerDemo.framework */,
+				55CCF66475F47134333EA3E183F4568B /* EMCCountryPickerController.framework */,
+				BACFF2F0F6F585E89E7E75CC9F8A93CD /* Pods_EMCCountryPickerControllerDemo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		3ACF45DECD95EF2344A62B9C5DB6BF4D /* EMCCountryPickerController */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0183A4CAC5D8B7C6F34019AA2C5429A6 /* Pods */,
-				7B8336BDB1D035A7C8A9091BABAC957E /* Products */,
-				1F002A44A1049DF068C4A0A045B13D2D /* Targets Support Files */,
+				47F7AF9607DC7B0E5FCC009CFAE36A8D /* EMCCountry.h */,
+				A18CB09D7911161AE89265521815D5A8 /* EMCCountry.m */,
+				A2FD9BC47F0B03B51D5985D1C10ADBCD /* EMCCountryDelegate.h */,
+				0BDE247A6FC9C9F680B4CB5910205242 /* EMCCountryManager.h */,
+				3B0A6E5551EADA12E80A4F497A8DB6E9 /* EMCCountryManager.m */,
+				A9FF2B39CD7BAF374C8D2FA66C788753 /* EMCCountryPickerController.h */,
+				1AC1A686043DDF2E3620D57669E10F07 /* EMCCountryPickerController.m */,
+				40DF3DC25CCD81AD72C381FBFB23A237 /* UIImage+UIImage_EMCImageResize.h */,
+				BC6D26307E6960BED3BBB9F072150B2C /* UIImage+UIImage_EMCImageResize.m */,
+				B9FDBB851F772AD4A211E193E8C63FF0 /* Resources */,
+				FB455C8FE0734EE37C72261AFC970370 /* Support Files */,
 			);
+			path = EMCCountryPickerController;
 			sourceTree = "<group>";
 		};
-		86C50A7813E223A5CACB164776A70EB2 /* Pods-EMCCountryPickerControllerDemo */ = {
+		47E09591DC78B093EB8AA12AB1DBE5C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				79F09F4B75B1842CCBB893358DA9CF64 /* Info.plist */,
-				9EA6688F4015EADBA31CA5C0C85C4751 /* Pods-EMCCountryPickerControllerDemo.modulemap */,
-				13B59F3B06FA0DB2B8E4CBE7F0DA5686 /* Pods-EMCCountryPickerControllerDemo-acknowledgements.markdown */,
-				A67456F48016C5A6F4E62B6C3EB3379D /* Pods-EMCCountryPickerControllerDemo-acknowledgements.plist */,
-				8C39BE0EFA125ED0F0F800B25DCEF6F7 /* Pods-EMCCountryPickerControllerDemo-dummy.m */,
-				023A43E242176DF75F6169014AA7C5F7 /* Pods-EMCCountryPickerControllerDemo-frameworks.sh */,
-				71B4FD7E8EE6BBEF610E1AB780F37E32 /* Pods-EMCCountryPickerControllerDemo-resources.sh */,
-				058B59F4ED20BF69919F1C5C86DE82C1 /* Pods-EMCCountryPickerControllerDemo-umbrella.h */,
-				3B71F1706EBA34743EE361527600DCDD /* Pods-EMCCountryPickerControllerDemo.debug.xcconfig */,
-				0206F0AE3766ED2860A68C45B8160B12 /* Pods-EMCCountryPickerControllerDemo.release.xcconfig */,
+				3ACF45DECD95EF2344A62B9C5DB6BF4D /* EMCCountryPickerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6373E2C59C7F41F54DFEEC9F73A3AFAF /* Pods-EMCCountryPickerControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7691D58DEB449B3D228F9EDDB93A2DC1 /* Pods-EMCCountryPickerControllerDemo.modulemap */,
+				7E1B3C04DBC67B1169B17ABD26A91CC1 /* Pods-EMCCountryPickerControllerDemo-acknowledgements.markdown */,
+				8A21B2DF06350DB871DD533451CAE7DD /* Pods-EMCCountryPickerControllerDemo-acknowledgements.plist */,
+				B521EB668D4C33D13D490A01A17C2B35 /* Pods-EMCCountryPickerControllerDemo-dummy.m */,
+				C533521FF5E0F9256614B2928AD58C37 /* Pods-EMCCountryPickerControllerDemo-frameworks.sh */,
+				E5328A4DEE35AC320C6E288F8928C6B2 /* Pods-EMCCountryPickerControllerDemo-Info.plist */,
+				22EC8BDABA460FAE5D7AC2040AA2C8E7 /* Pods-EMCCountryPickerControllerDemo-umbrella.h */,
+				24E0A15DBEC7FCEE8081C4D4347EC40A /* Pods-EMCCountryPickerControllerDemo.debug.xcconfig */,
+				3C6C244DAC0486C70A74EAFDAEBCD241 /* Pods-EMCCountryPickerControllerDemo.release.xcconfig */,
 			);
 			name = "Pods-EMCCountryPickerControllerDemo";
 			path = "Target Support Files/Pods-EMCCountryPickerControllerDemo";
 			sourceTree = "<group>";
 		};
-		902BD3DF72575C7A1DBD5547CF7CB7A3 /* EMCCountryPickerController */ = {
+		7C1E4B803E37AB25BDDB8AC1A4713522 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5ED0B289F8BFF35493C77053E5227AFA /* EMCCountry.h */,
-				674C274BEA95FE2EF5666E113FE154EF /* EMCCountry.m */,
-				0B5819DB4FE8278C7980CA1706469D90 /* EMCCountryDelegate.h */,
-				59B0BDDE968F47389C303AF85CB5F0C4 /* EMCCountryManager.h */,
-				F9253A72A055682082F1FCCF39091B93 /* EMCCountryManager.m */,
-				F5C97C7F9221A66A4CB31CFB2ABA0775 /* EMCCountryPickerController.h */,
-				F1D55CA2542938A30A6E0E6F917B6293 /* EMCCountryPickerController.m */,
-				9E17CEA3DF7DCF34FEBDD1FE1BD1D95D /* UIImage+UIImage_EMCImageResize.h */,
-				BE2F832ADEC072B8283C5B2BC1E969D8 /* UIImage+UIImage_EMCImageResize.m */,
-				F0C58AA9E5E5FA5AA8B26BCD6DF1E8C3 /* Resources */,
-				C231AA358F2C641892A9AEEDE4DC14F4 /* Support Files */,
+				6373E2C59C7F41F54DFEEC9F73A3AFAF /* Pods-EMCCountryPickerControllerDemo */,
 			);
-			name = EMCCountryPickerController;
-			path = EMCCountryPickerController;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B9FDBB851F772AD4A211E193E8C63FF0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				97E582C8EC2DA1AB17E58772ADB65619 /* EMCCountryPickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47E09591DC78B093EB8AA12AB1DBE5C4 /* Pods */,
+				0BD4BCC151164E9F3AD0132D926A0131 /* Products */,
+				7C1E4B803E37AB25BDDB8AC1A4713522 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C231AA358F2C641892A9AEEDE4DC14F4 /* Support Files */ = {
+		FB455C8FE0734EE37C72261AFC970370 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B601133DA2C1B227410301DE78FD6C9F /* EMCCountryPickerController.modulemap */,
-				33D0C99ED027E5DB5972C6D89A517931 /* EMCCountryPickerController.xcconfig */,
-				81DC1956354493BBDFC0A38A79D98F63 /* EMCCountryPickerController-dummy.m */,
-				22656CE37D20BBE362DE9C433D3AFA93 /* EMCCountryPickerController-prefix.pch */,
-				5EC12B2FADC9CE94325798CA86668783 /* EMCCountryPickerController-umbrella.h */,
-				4F6E01864CC718D740F43E99D24FF13F /* Info.plist */,
+				C72CFE42F0BA446429C118194FB29F84 /* EMCCountryPickerController.modulemap */,
+				CF83E5D4DEF8A744A4EF6EF6BB420040 /* EMCCountryPickerController-dummy.m */,
+				C0A770EE3383ADAFCD738CB3222B03F6 /* EMCCountryPickerController-Info.plist */,
+				26A0C456E01910F9E6F5FFE45BFF772B /* EMCCountryPickerController-prefix.pch */,
+				CCDA72492CA83416FAA29F269B3C6FDF /* EMCCountryPickerController-umbrella.h */,
+				5B35217AB5CC7184BD8634E7CDD698AF /* EMCCountryPickerController.debug.xcconfig */,
+				7C35A1B7ECCF4C2A6A2E2A6F768AE690 /* EMCCountryPickerController.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/EMCCountryPickerController";
 			sourceTree = "<group>";
 		};
-		F0C58AA9E5E5FA5AA8B26BCD6DF1E8C3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6B3406909904A0F8B81162CD4A6042DC /* EMCCountryPickerController.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		37335908F9473A1273DCB7B576D03428 /* Headers */ = {
+		2A2F3E4F40CBCE206B366531D1C5F611 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C418F6108F329B62FF863502F8A35131 /* Pods-EMCCountryPickerControllerDemo-umbrella.h in Headers */,
+				BAE7BF62DB38911310E32495F45E88BF /* Pods-EMCCountryPickerControllerDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D482A34C19540F975C0B7332201FC7A5 /* Headers */ = {
+		F3B79870FD39DAAAA9C7D4B8DFFF6E5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCAE5F5117E847264EAF27341364047 /* EMCCountry.h in Headers */,
-				4AEBF76F5605B6F4CDFA7E457050B9EF /* EMCCountryDelegate.h in Headers */,
-				44CE262EA19CB9E99520E9C2E806556B /* EMCCountryManager.h in Headers */,
-				1218B5C23FBCE04C22349A9143FE6ABD /* EMCCountryPickerController-umbrella.h in Headers */,
-				A4527CEA954B61680138C8149799EFBD /* EMCCountryPickerController.h in Headers */,
-				E64CA55024D9AE49294C44C55F3CEF36 /* UIImage+UIImage_EMCImageResize.h in Headers */,
+				B7DCB859B5B02640BFB7E6EA11A125E8 /* EMCCountry.h in Headers */,
+				18704226A1477EA6CEB39D72AE4EAFB1 /* EMCCountryDelegate.h in Headers */,
+				DD44675DF5019C4E9A525F403617CF5B /* EMCCountryManager.h in Headers */,
+				191C31841D67477883F5506B2CA31280 /* EMCCountryPickerController-umbrella.h in Headers */,
+				9B169BA06F625AEBFBD872B5E9120BC5 /* EMCCountryPickerController.h in Headers */,
+				715EB533CB18397436BC5553366B197F /* UIImage+UIImage_EMCImageResize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3431A2F3CD546148AA09AA15CCEFF9F7 /* EMCCountryPickerController */ = {
+		DEBB697BE098A27E62ADEC99F5EE3A25 /* Pods-EMCCountryPickerControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80917445D5A14D1CD99F891DFA63116E /* Build configuration list for PBXNativeTarget "EMCCountryPickerController" */;
+			buildConfigurationList = 94CD7BEC74653564AC6D8D44095B2942 /* Build configuration list for PBXNativeTarget "Pods-EMCCountryPickerControllerDemo" */;
 			buildPhases = (
-				452BD1F1206A54E61A7EAE51ACA4CD66 /* Sources */,
-				F2D33401CE755D9FFB1CBB81EFBEE8BF /* Frameworks */,
-				D482A34C19540F975C0B7332201FC7A5 /* Headers */,
-				E4C53EC2DE2F941CF4DC3841EB851A82 /* Resources */,
+				2A2F3E4F40CBCE206B366531D1C5F611 /* Headers */,
+				559D9293D34FFA8428F4B8B73C38575C /* Sources */,
+				2379DD76A9EE9CC21CE5283B11406F4D /* Frameworks */,
+				4D57E9EE7D3A2E8726D168BC1862176E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5F4D6E240EDF4A56D40F2C8EC23ACC /* PBXTargetDependency */,
+			);
+			name = "Pods-EMCCountryPickerControllerDemo";
+			productName = "Pods-EMCCountryPickerControllerDemo";
+			productReference = BACFF2F0F6F585E89E7E75CC9F8A93CD /* Pods_EMCCountryPickerControllerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5E9967CB56649FB5818463BE834123B /* EMCCountryPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6A4914BA228B519323CFAEAA2046F4 /* Build configuration list for PBXNativeTarget "EMCCountryPickerController" */;
+			buildPhases = (
+				F3B79870FD39DAAAA9C7D4B8DFFF6E5B /* Headers */,
+				67241F6BA8459A1118D1E1BC0F16EE56 /* Sources */,
+				59C47B84EA9718430E5F31BBCFE93A66 /* Frameworks */,
+				48C966CB44495E9845F5AEDA19BB761B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -241,271 +259,331 @@
 			);
 			name = EMCCountryPickerController;
 			productName = EMCCountryPickerController;
-			productReference = F8335D72D747780236881B7225591CDB /* EMCCountryPickerController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8A74EA60058CE455F376D07ABF097A84 /* Pods-EMCCountryPickerControllerDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E11541BE93091C05A9AF5BA213E74482 /* Build configuration list for PBXNativeTarget "Pods-EMCCountryPickerControllerDemo" */;
-			buildPhases = (
-				79B38E3548286CBF037AA7260EF198B6 /* Sources */,
-				295966DB4A5ACAC9CB7273C5D6B4DE69 /* Frameworks */,
-				37335908F9473A1273DCB7B576D03428 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83644709432BD276B10DBC68833E6C1D /* PBXTargetDependency */,
-			);
-			name = "Pods-EMCCountryPickerControllerDemo";
-			productName = "Pods-EMCCountryPickerControllerDemo";
-			productReference = C74913D67B86EF4B438D23DE145E3C7E /* Pods_EMCCountryPickerControllerDemo.framework */;
+			productReference = 55CCF66475F47134333EA3E183F4568B /* EMCCountryPickerController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7B8336BDB1D035A7C8A9091BABAC957E /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0BD4BCC151164E9F3AD0132D926A0131 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3431A2F3CD546148AA09AA15CCEFF9F7 /* EMCCountryPickerController */,
-				8A74EA60058CE455F376D07ABF097A84 /* Pods-EMCCountryPickerControllerDemo */,
+				E5E9967CB56649FB5818463BE834123B /* EMCCountryPickerController */,
+				DEBB697BE098A27E62ADEC99F5EE3A25 /* Pods-EMCCountryPickerControllerDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E4C53EC2DE2F941CF4DC3841EB851A82 /* Resources */ = {
+		48C966CB44495E9845F5AEDA19BB761B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049CF340A7914DDBC897C26B22574725 /* EMCCountryPickerController.bundle in Resources */,
+				9521D2C90DC6F1C98A0B4BC2359EB2B4 /* EMCCountryPickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57E9EE7D3A2E8726D168BC1862176E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		452BD1F1206A54E61A7EAE51ACA4CD66 /* Sources */ = {
+		559D9293D34FFA8428F4B8B73C38575C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED89172B658C1D00C42AA74574A92C43 /* EMCCountry.m in Sources */,
-				BF20923D5A37ACF335DAD390BBC6F9AE /* EMCCountryManager.m in Sources */,
-				CD9947183BF5D71F0A933D69FA365765 /* EMCCountryPickerController-dummy.m in Sources */,
-				C0709A36948753C9836D3417269AE366 /* EMCCountryPickerController.m in Sources */,
-				8BB4BC7B0F9FA441F0E0540E2A5D1CDF /* UIImage+UIImage_EMCImageResize.m in Sources */,
+				DDAA6003A2BD9C44FA0CB6FAD98675AF /* Pods-EMCCountryPickerControllerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79B38E3548286CBF037AA7260EF198B6 /* Sources */ = {
+		67241F6BA8459A1118D1E1BC0F16EE56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD5A2343C3EBE46A1BE6D8E646D59EA5 /* Pods-EMCCountryPickerControllerDemo-dummy.m in Sources */,
+				C8D9926EDB84D1BF9A631ED4AB0DBEFA /* EMCCountry.m in Sources */,
+				BD93AAD0B2A83AA5E95453304F570463 /* EMCCountryManager.m in Sources */,
+				611FF006064FD9B798A498338F09F687 /* EMCCountryPickerController-dummy.m in Sources */,
+				1A8D076CC934B040CCB64D10CD91752E /* EMCCountryPickerController.m in Sources */,
+				8A169E3FA0A9ED18B1754CE77FC25439 /* UIImage+UIImage_EMCImageResize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83644709432BD276B10DBC68833E6C1D /* PBXTargetDependency */ = {
+		CA5F4D6E240EDF4A56D40F2C8EC23ACC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EMCCountryPickerController;
-			target = 3431A2F3CD546148AA09AA15CCEFF9F7 /* EMCCountryPickerController */;
-			targetProxy = 2A0A122D74332F6C5DFED2F70EF1A075 /* PBXContainerItemProxy */;
+			target = E5E9967CB56649FB5818463BE834123B /* EMCCountryPickerController */;
+			targetProxy = 9E323B04A46C8A12E84A2734D47B8B26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		349A25C400CB22995D1366ACF3603F83 /* Release */ = {
+		1BB64419E0EE1E6CE4710AD686AB58E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D0C99ED027E5DB5972C6D89A517931 /* EMCCountryPickerController.xcconfig */;
+			baseConfigurationReference = 3C6C244DAC0486C70A74EAFDAEBCD241 /* Pods-EMCCountryPickerControllerDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EMCCountryPickerController/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMCCountryPickerControllerDemo/Pods-EMCCountryPickerControllerDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EMCCountryPickerController;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EMCCountryPickerControllerDemo/Pods-EMCCountryPickerControllerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		38ABAB50969B33B9DCEE153408A1FA43 /* Debug */ = {
+		3335903477844DD6503DA7069E76C9BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D0C99ED027E5DB5972C6D89A517931 /* EMCCountryPickerController.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5ECC9968D04BA337BCABF9D410CF86B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C35A1B7ECCF4C2A6A2E2A6F768AE690 /* EMCCountryPickerController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EMCCountryPickerController/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = EMCCountryPickerController;
 				PRODUCT_NAME = EMCCountryPickerController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F0E01DAA087A551818EE9AC048EE442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B35217AB5CC7184BD8634E7CDD698AF /* EMCCountryPickerController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EMCCountryPickerController/EMCCountryPickerController.modulemap";
+				PRODUCT_MODULE_NAME = EMCCountryPickerController;
+				PRODUCT_NAME = EMCCountryPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4152B65E774EC5E092DB6B4C2F95806B /* Release */ = {
+		DED78C32FD03F726582A9D66A50F32D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4AA6926BFCA8549475CC696285D69637 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9A55C3657608BAD800767F5178202A46 /* Debug */ = {
+		FD9B385F373FA2B87C3B38099C165DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B71F1706EBA34743EE361527600DCDD /* Pods-EMCCountryPickerControllerDemo.debug.xcconfig */;
+			baseConfigurationReference = 24E0A15DBEC7FCEE8081C4D4347EC40A /* Pods-EMCCountryPickerControllerDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EMCCountryPickerControllerDemo/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMCCountryPickerControllerDemo/Pods-EMCCountryPickerControllerDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EMCCountryPickerControllerDemo/Pods-EMCCountryPickerControllerDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EMCCountryPickerControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,72 +592,37 @@
 			};
 			name = Debug;
 		};
-		DC1E2C74EAB2432508F7F478D4A32DF9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0206F0AE3766ED2860A68C45B8160B12 /* Pods-EMCCountryPickerControllerDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EMCCountryPickerControllerDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EMCCountryPickerControllerDemo/Pods-EMCCountryPickerControllerDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EMCCountryPickerControllerDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		3C6A4914BA228B519323CFAEAA2046F4 /* Build configuration list for PBXNativeTarget "EMCCountryPickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AA6926BFCA8549475CC696285D69637 /* Debug */,
-				4152B65E774EC5E092DB6B4C2F95806B /* Release */,
+				5F0E01DAA087A551818EE9AC048EE442 /* Debug */,
+				5ECC9968D04BA337BCABF9D410CF86B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80917445D5A14D1CD99F891DFA63116E /* Build configuration list for PBXNativeTarget "EMCCountryPickerController" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38ABAB50969B33B9DCEE153408A1FA43 /* Debug */,
-				349A25C400CB22995D1366ACF3603F83 /* Release */,
+				DED78C32FD03F726582A9D66A50F32D8 /* Debug */,
+				3335903477844DD6503DA7069E76C9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E11541BE93091C05A9AF5BA213E74482 /* Build configuration list for PBXNativeTarget "Pods-EMCCountryPickerControllerDemo" */ = {
+		94CD7BEC74653564AC6D8D44095B2942 /* Build configuration list for PBXNativeTarget "Pods-EMCCountryPickerControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A55C3657608BAD800767F5178202A46 /* Debug */,
-				DC1E2C74EAB2432508F7F478D4A32DF9 /* Release */,
+				FD9B385F373FA2B87C3B38099C165DB2 /* Debug */,
+				1BB64419E0EE1E6CE4710AD686AB58E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
